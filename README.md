@@ -107,5 +107,4 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Built with [Lovable](https://lovable.dev)
 - UI components from [shadcn/ui](https://ui.shadcn.com)
