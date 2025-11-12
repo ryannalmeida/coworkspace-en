@@ -29,7 +29,7 @@ const App = () => (
       <AuthProvider>
         <ReservationProvider>
           <NotificationProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/coworkspace-en">
               <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="/login" element={<Login />} />

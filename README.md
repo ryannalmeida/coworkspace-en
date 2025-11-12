@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# CoworkSpace
 
-## Project info
+A modern workspace reservation management system built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/896c0aed-5d51-4b2e-94e5-8311a6e8ff7e
+## 🚀 Features
 
-## How can I edit this code?
+- **User Authentication**: Secure login and registration system
+- **Reservation Management**: Create, view, and manage workspace reservations
+- **Real-time Notifications**: Stay updated with reservation status changes
+- **Dashboard**: Overview of your reservations and account activity
+- **Reports & Analytics**: Monitor and analyze workspace usage
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-There are several ways of editing your application.
+## 🛠️ Technologies
 
-**Use Lovable**
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - UI components
+- **React Router** - Navigation
+- **TanStack Query** - Data fetching and state management
+- **Zod** - Schema validation
+- **date-fns** - Date manipulation
+- **Chart.js** - Data visualization
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/896c0aed-5d51-4b2e-94e5-8311a6e8ff7e) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+```bash
+git clone https://github.com/ryannalmeida/coworkspace-en.git
+cd coworkspace-en
+```
 
-**Use your preferred IDE**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build
 
-**Use GitHub Codespaces**
+To build for production:
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+To preview the production build:
+```bash
+npm run preview
+```
 
-## What technologies are used for this project?
+## 📁 Project Structure
 
-This project is built with:
+```
+src/
+├── components/     # Reusable UI components
+│   ├── ui/        # shadcn/ui components
+│   └── reports/   # Report-specific components
+├── contexts/       # React contexts (Auth, Reservations, Notifications)
+├── hooks/          # Custom React hooks
+├── lib/            # Utility functions
+├── pages/          # Page components
+└── utils/          # Helper functions (localStorage management)
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔐 Demo Credentials
 
-## How can I deploy this project?
+For demonstration purposes, you can use:
+- **Email**: `demo@example.com`
+- **Password**: `password`
 
-Simply open [Lovable](https://lovable.dev/projects/896c0aed-5d51-4b2e-94e5-8311a6e8ff7e) and click on Share -> Publish.
+## 📝 Available Scripts
 
-## Can I connect a custom domain to my Lovable project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-Yes, you can!
+## 🌐 Routes
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- `/` - Landing page
+- `/login` - Login page
+- `/register` - Registration page
+- `/dashboard` - User dashboard
+- `/reservations` - View all reservations
+- `/reservations/new` - Create new reservation
+- `/notifications` - View notifications
+- `/profile` - User profile management
+- `/reports` - Usage reports and analytics
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Ryann Almeida**
+
+- GitHub: [@ryannalmeida](https://github.com/ryannalmeida)
+
+## 🙏 Acknowledgments
+
+- Built with [Lovable](https://lovable.dev)
+- UI components from [shadcn/ui](https://ui.shadcn.com)
